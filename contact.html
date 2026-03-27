@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Contact Us | Codveda Technology</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div id="loader">
+    <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">LOADING EXPERIENCE</div>
+    </div>
+</div>
+
+<div id="three-container"></div>
+
+<!-- Scroll to Top Button -->
+<div class="scroll-top" id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<div class="main-content">
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-code logo-icon"></i>
+                <div>
+                    <h1>CODVEDA<span>TECH</span></h1>
+                    <p>INNOVATION · EXCELLENCE</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" id="nav-home">Home</a>
+                <a href="about.html" id="nav-about">About</a>
+                <a href="contact.html" id="nav-contact" class="active">Contact</a>
+            </div>
+        </nav>
+
+        <!-- CONTACT PAGE CONTENT -->
+        <div class="hero">
+            <h1>Let's Create<br>Something Extraordinary</h1>
+            <p>Ready to transform your ideas into reality? Reach out to our team today.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3 style="margin-bottom: 1.5rem;">Connect With Us</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Visit Us</strong><br>
+                        <span style="color: #9ca3af;">Innovation Hub, Tech Park, Bangalore - 560001</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Call Us</strong><br>
+                        <span style="color: #9ca3af;">+91 98765 43210 | +91 87654 32109</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email Us</strong><br>
+                        <span style="color: #9ca3af;">support@codveda.com | hello@codveda.com</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <strong>Business Hours</strong><br>
+                        <span style="color: #9ca3af;">Mon-Fri: 9:00 AM - 7:00 PM | Sat: 10:00 AM - 4:00 PM</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="emailAddress" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subjectLine" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="messageContent" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="formStatus" style="margin-top: 1rem; text-align: center;"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div>
+                    <p style="color: #6b7280;">© 2025 Codveda Technology. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<!-- Three.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
